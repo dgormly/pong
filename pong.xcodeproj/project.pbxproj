@@ -17,6 +17,7 @@
 		A33FCAB01E5C16E0007EFDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33FCAAE1E5C16E0007EFDC3 /* LaunchScreen.storyboard */; };
 		A33FCABB1E5C16E0007EFDC3 /* pongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33FCABA1E5C16E0007EFDC3 /* pongTests.swift */; };
 		A33FCAC61E5C16E0007EFDC3 /* pongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33FCAC51E5C16E0007EFDC3 /* pongUITests.swift */; };
+		A3C18AD21E5C5CA00087B6D0 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3C18AD11E5C5CA00087B6D0 /* LLPIXEL3.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A33FCAC11E5C16E0007EFDC3 /* pongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33FCAC51E5C16E0007EFDC3 /* pongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongUITests.swift; sourceTree = "<group>"; };
 		A33FCAC71E5C16E0007EFDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C18AD11E5C5CA00087B6D0 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LLPIXEL3.ttf; path = ../../../../Downloads/LLPIXEL3.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		A33FCA9E1E5C16E0007EFDC3 /* pong */ = {
 			isa = PBXGroup;
 			children = (
+				A3C18AD11E5C5CA00087B6D0 /* LLPIXEL3.ttf */,
 				A33FCA9F1E5C16E0007EFDC3 /* AppDelegate.swift */,
 				A33FCAA11E5C16E0007EFDC3 /* GameScene.sks */,
 				A33FCAA31E5C16E0007EFDC3 /* Actions.sks */,
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					A33FCA9B1E5C16E0007EFDC3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DVW823U8AX;
 						ProvisioningStyle = Automatic;
 					};
 					A33FCAB51E5C16E0007EFDC3 = {
@@ -242,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A33FCAAB1E5C16E0007EFDC3 /* Main.storyboard in Resources */,
+				A3C18AD21E5C5CA00087B6D0 /* LLPIXEL3.ttf in Resources */,
 				A33FCAA21E5C16E0007EFDC3 /* GameScene.sks in Resources */,
 				A33FCAAD1E5C16E0007EFDC3 /* Assets.xcassets in Resources */,
 				A33FCAB01E5C16E0007EFDC3 /* LaunchScreen.storyboard in Resources */,
@@ -348,6 +353,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -398,6 +404,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -424,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVW823U8AX;
 				INFOPLIST_FILE = pong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.procrastix.pong;
@@ -436,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVW823U8AX;
 				INFOPLIST_FILE = pong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.procrastix.pong;
@@ -517,6 +526,7 @@
 				A33FCACC1E5C16E0007EFDC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A33FCACD1E5C16E0007EFDC3 /* Build configuration list for PBXNativeTarget "pongTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				A33FCACF1E5C16E0007EFDC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A33FCAD01E5C16E0007EFDC3 /* Build configuration list for PBXNativeTarget "pongUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +544,7 @@
 				A33FCAD21E5C16E0007EFDC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
